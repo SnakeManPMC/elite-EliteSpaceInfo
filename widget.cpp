@@ -19,7 +19,7 @@ Widget::~Widget()
 
 void Widget::Load_Briefings()
 {
-	QFile file( ("d://coding//test_files//em.txt") );
+	QFile file( ("d://elite.dangerous//em.txt") );
 
 	if (!file.open(QIODevice::ReadOnly))
 	{
